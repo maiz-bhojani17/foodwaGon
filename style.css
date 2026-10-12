@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navLogo img{
+    width: 280px;
+    padding-left: 130px;
+}
+
+.navLocation{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+
+.navLocation span{
+    font-weight: bold;
+}
+
+.navLocation i{
+    color: orange;
+}
+
+.navBtns{
+    margin-right: 130px;
+    margin-top: 6.5px;
+}
+
+.navBtns i{
+    color: orange;
+}
+
+.search{
+    border: none;
+    font-weight: bold;
+}
+
+.login{
+    margin-left: 15px;
+}
