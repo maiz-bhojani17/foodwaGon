@@ -75,8 +75,28 @@
 .container{
     display: flex;
     justify-content: space-between;
+    background-color: var(--orange-color);
+    height: 429px;
+    margin-top: 6px;
 }
 
 .text{
     padding-left: 130px;
+    margin-top: 30px;
+}
+
+.Are{
+    font-size: 40px;
+    display: inline-block;
+    color: var(--white-color);
+}
+
+.Within{
+    font-size: small;
+}
+
+.hero-pic{
+    width: 620px;
+    padding-right: 40px;
+    margin-top: 35px;
 }
