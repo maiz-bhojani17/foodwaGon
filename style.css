@@ -15,6 +15,7 @@
     --light-gray: #e5e5e5;
 }
 
+/* NavBar */
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -68,4 +69,14 @@
     font-weight: bold;
     box-shadow: 0px 2px 10px var(--orange-color);
     padding: 7px 12px;
+}
+
+/* Hero Section */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    padding-left: 130px;
 }
