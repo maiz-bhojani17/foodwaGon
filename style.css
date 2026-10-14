@@ -82,21 +82,24 @@
 
 .text{
     padding-left: 130px;
-    margin-top: 30px;
+    margin-top: 95px;
 }
 
-.Are{
-    font-size: 40px;
-    display: inline-block;
+.open-sans{
+    font-size: 45px;
     color: var(--white-color);
+    font-family: "Open Sans", sans-serif;
 }
 
 .Within{
     font-size: small;
+    margin-top: 8px;
+    color: var(--gray-color);
 }
 
 .hero-pic{
-    width: 620px;
-    padding-right: 40px;
-    margin-top: 35px;
+    width: 550px;
+    padding-right: 60px;
+    margin-top: 96px;
 }
+
