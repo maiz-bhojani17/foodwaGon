@@ -229,3 +229,282 @@
     opacity: 0.9;
     transform: translateY(-1px);
 }
+
+
+
+
+/* ============================= /
+/ Responsive CSS /
+/ ============================= */
+
+/* Laptop and Tablet */
+@media screen and (max-width: 1024px) {
+
+.navBar {
+    align-items: center;
+    gap: 15px;
+    padding: 0 25px;
+}
+
+.navLogo img {
+    width: 220px;
+    padding-left: 30px;
+}
+
+.navLocation {
+    font-size: 11px;
+}
+
+.navBtns {
+    margin-right: 0;
+}
+
+.text {
+    padding-left: 40px;
+}
+
+.open-sans {
+    font-size: 40px;
+}
+
+.Within {
+    font-size: 12px;
+}
+
+.food-search-box {
+    width: 450px;
+    max-width: 100%;
+}
+
+.hero-pic {
+    width: 400px;
+    padding-right: 15px;
+    margin-top: 120px;
+}
+
+.container {
+    min-height: 420px;
+}
+
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+.navBar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.navLogo img {
+    width: 170px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.navLocation {
+    order: 3;
+    width: 100%;
+    margin-top: 0;
+    white-space: normal;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.navBtns {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navBtns button i {
+    padding-right: 5px;
+}
+
+.login {
+    margin-left: 0;
+}
+
+.container {
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+    padding: 45px 25px 0;
+    gap: 10px;
+}
+
+.text {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.open-sans {
+    font-size: 42px;
+}
+
+.Within {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.food-search-box {
+    width: 100%;
+    max-width: 505px;
+    margin-top: 22px;
+}
+
+.food-search-form {
+    gap: 10px;
+    padding: 14px;
+}
+
+.address-input {
+    flex: 1;
+}
+
+.find-food-btn {
+    padding: 0 18px;
+}
+
+.hero-pic {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    padding-right: 0;
+    margin-top: 15px;
+}
+
+.container > div:last-child {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+.navBar {
+    padding: 12px 15px;
+    gap: 12px;
+}
+
+.navLogo img {
+    width: 135px;
+}
+
+.navBtns {
+    gap: 10px;
+}
+
+.navBtns button {
+    font-size: 11px;
+}
+
+.navBtns button i {
+    padding-right: 3px;
+}
+
+.login {
+    padding: 7px 9px;
+    font-size: 11px;
+}
+
+.navLocation {
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.container {
+    padding: 40px 15px 0;
+}
+
+.open-sans {
+    font-size: 34px;
+    line-height: 1.25;
+}
+
+.Within {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.food-search-box {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.food-tabs {
+    gap: 5px;
+    padding: 12px;
+}
+
+.food-tab {
+    gap: 6px;
+    padding: 8px 12px;
+    font-size: 11px;
+}
+
+.food-search-form {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px;
+}
+
+.address-input {
+    flex: 1 1 100%;
+    height: 42px;
+}
+
+.find-food-btn {
+    width: 100%;
+    height: 42px;
+}
+
+.hero-pic {
+    max-width: 330px;
+    margin-top: 20px;
+}
+
+}
+
+/* Small Mobile */
+@media screen and (max-width: 350px) {
+
+.navLogo img {
+    width: 115px;
+}
+
+.navBtns {
+    gap: 7px;
+}
+
+.navBtns button {
+    font-size: 10px;
+}
+
+.open-sans {
+    font-size: 29px;
+}
+
+.food-tab {
+    padding: 8px 9px;
+    font-size: 10px;
+}
+
+.address-input input {
+    font-size: 11px;
+}
+
+.hero-pic {
+    max-width: 280px;
+}
+
+}
