@@ -13,6 +13,7 @@
     --white-color: #ffffff;
     --gray-color: #504F4F;
     --light-gray: #e5e5e5;
+    --pink: #f57378;
 }
 
 /* NavBar */
@@ -24,14 +25,14 @@
 
 .navLogo img {
     width: 290px;
-    padding-left: 130px;
+    padding-left: 90px;
     margin: 5px;
 }
 
 .navLocation {
     font-size: 12px;
     font-family: sans-serif;
-    margin-top: 13px;
+    margin-top: 16px;
 }
 
 .navLocation span {
@@ -43,8 +44,8 @@
 }
 
 .navBtns {
-    margin-right: 130px;
-    margin-top: 6.5px;
+    margin-right: 80px;
+    margin-top: 7px;
 }
 
 .navBtns i {
@@ -62,7 +63,7 @@
 }
 
 .login {
-    margin-left: 15px;
+    margin-left: 20px;
     color: var(--orange-color);
     border-radius: 5px;
     border: none;
@@ -73,15 +74,15 @@
 
 /* Hero Section */
 
-/* .container{
+ .container{
     display: flex;
     justify-content: space-between;
     background-color: var(--orange-color);
-    height: 429px;
+    height: 420px;
     margin-top: 6px;
-} */
+ } 
 
-.hero-section {
+ .hero-section {
     display: flex;
     justify-content: space-between;
     background-color: var(--orange-color);
@@ -90,7 +91,7 @@
 }
 
 .text {
-    padding-left: 130px;
+    padding-left: 90px;
     margin-top: 95px;
 }
 
@@ -111,30 +112,120 @@
 }
 
 .hero-pic {
-    width: 550px;
-    padding-right: 60px;
-    margin-top: 96px;
+    width: 490px;
+    padding-right: 25px;
+    margin-top: 105px;
+} 
+
+
+
+
+/* Food Search White Box */
+.food-search-box {
+    width: 505px;
+    background-color: var(--white-color);
+    border-radius: 12px;
+    margin-top: 22px;
+    overflow: hidden;
 }
 
-.hero-card {
-    /* display: flex;
-    flex-direction: row; */
-    background-color: var(--light-background);
-    /* border-radius: 10px; */
-
-    /* padding: 20px 10px;
-    gap: 20px 0; */
-    height: 50px;
-    margin-top: 100px;
+/* Delivery and Pickup Tabs */
+.food-tabs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 17px;
+    border-bottom: 1px solid #eeeeee;
 }
 
-
-.delivery {
-    margin-right: 30px;
-    margin-top: 20em;
+.food-tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: transparent;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 7px 17px;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-.pickup {
-    margin-right: 50px;
-    margin-top: 20em;
+.food-tab.active {
+    background-color: #fff0e8;
+    color: var(--orangered-color);
+}
+
+.food-tab i {
+    font-size: 13px;
+}
+
+/* Address Input and Button */
+.food-search-form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 17px;
+}
+
+.address-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+    height: 38px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    padding: 0 12px;
+}
+
+.address-input i {
+    color: var(--pink);
+    font-size: 17px;
+}
+
+.address-input input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+    color: var(--gray-color);
+}
+
+.address-input input::placeholder {
+    color: #aaaaaa;
+}
+
+/* Find Food Button */
+.find-food-btn {
+    height: 43px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #ff725e, #ff5a1f);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.find-food-btn i {
+    margin-right: 7px;
+    font-size: 11px;
+}
+
+/* Button Hover Effects */
+.food-tab,
+.find-food-btn {
+    transition: 0.2s ease;
+}
+
+.find-food-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
 }
